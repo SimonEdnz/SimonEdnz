@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box
+}
+body{
+    position: relative;
+}
+p{
+    color: black;
+}
+div{
+    text-align: center;
+    width:35%;
+    height: 30vh;
+    display: inline-block;
+}
+a:hover{
+    color: white;
+}
+#biodata:hover{
+  background-color: black;
+}
+#photo:hover{
+    background-color: black;
+}
+#education:hover{
+    background-color: black;
+}
+#hobbies:hover{
+    background-color: black;
+}
+#contactme:hover{
+    background-color:black ;
+}
+#biodata{
+    background-color: orange;
+}
+#photo{
+    background-color: navy;
+    position: absolute;
+    right: 0%;
+}
+#education{
+    background-color: violet;
+    display: block;
+    margin-left: 35%;
+    width: 30%;
+}
+#hobbies{
+    background-color: red;
+}
+#contactme{
+    background-color:cyan;
+    position: absolute;
+    right: 0%;
+}
+a{
+    color: black;
+}
